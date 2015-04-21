@@ -19,11 +19,12 @@ public class Unit0Exercises {
 
     public static void print() {
         // print out "I'm sorry Dave, I'm afraid I can't let you do that."
-        System.out.println("");
+        System.out.println("I'm sorry Dave, I'm afraid I can't let you do that.");
     }
 
-    public static Object returnPrimitiveBooleanFalse() {
-        return null;
+    public static boolean returnPrimitiveBooleanFalse() {
+        boolean booleanName;
+        return !booleanName;
     }
 
     public static Object returnPrimitiveInt55Plus44() {
