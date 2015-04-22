@@ -91,17 +91,12 @@ public class Unit0Exercises {
     public static int returnSumOfTheFirst200MultiplesOf3() {
         // Starts with [0, 3, 6, ...]
         // Ends with   [..., 591, 594, 597]
-        int sum =0;
-        int count = 0;
-
-            for (int num = 0; num<600 ;num++)
-            {
-                if(num % 3 == 0) {
-                    sum = sum + num;
-                    count = count + 1;
-                }
+        int sum = 0;
+        for (int num = 0; num<600 ;num++){
+            if(num % 3 == 0) {
+                sum = sum +num;
             }
-
+        }
         return sum;
     }
 
